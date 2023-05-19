@@ -37,7 +37,7 @@ namespace TourneyMod
             GUIStyle style = new GUIStyle();
             style.alignment = TextAnchor.MiddleCenter;
             style.normal.textColor = Color.red;
-            style.fontSize = 100;
+            style.fontSize = 120;
 
             GUI.Label(new Rect(0, 0, Screen.width, Screen.height), "BAD VHS/HANDS DETECTED", style);
         }
