@@ -7,12 +7,12 @@ using HarmonyLib;
 using System.Reflection;
 using static Il2Cpp.FossilCase;
 
-namespace TourneyMod
+namespace PracticeMod
 {
     /*
-     * TourneyMod - Ensures
+     * PracticeMod - Detects bad spawns
      */
-    public class TourneyMod : MelonMod
+    public class PracticeMod : MelonMod
     {
         private string listOfMods = "Active Mods \n";
 
