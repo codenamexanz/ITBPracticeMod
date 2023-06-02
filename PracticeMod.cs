@@ -76,7 +76,7 @@ namespace PracticeMod
                 MelonEvents.OnGUI.Unsubscribe(vhsHandsRuleDetected);
             }
 
-            if (sceneName == "MainLevel")
+            if (sceneName == "MainLevel" || sceneName == "HOTEL_SCENE")
             {
                 MelonEvents.OnGUI.Unsubscribe(DrawRegisteredMods);
                 DetectClockCassette();
